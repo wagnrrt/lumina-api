@@ -16,7 +16,8 @@
     "skipLibCheck": true,
     "moduleResolution": "node16",
     "outDir": "./dist",
-    "rootDir": "./src""paths": {
+    "rootDir": "./src",
+    "paths": {
       "@/*": [
         "./src/*"
       ]
