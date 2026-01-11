@@ -3,11 +3,7 @@
   "_version": "25.0.0",
   "compilerOptions": {
     "lib": [
-      "es2024",
-      "ESNext.Array",
-      "ESNext.Collection",
-      "ESNext.Iterator",
-      "ESNext.Promise"
+      "es2024"
     ],
     "module": "nodenext",
     "target": "es2024",
@@ -17,9 +13,6 @@
     "moduleResolution": "node16",
     "outDir": "./dist",
     "rootDir": "./src",
-    "types": [
-      "node"
-    ],
     "paths": {
       "@/*": [
         "./src/*"
