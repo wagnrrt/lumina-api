@@ -1,6 +1,6 @@
 import { weatherApiService } from './weatherApiService'
 import { cacheService } from './cacheService'
-import { NormalizedWeatherData, RawWeatherResponse } from '@/types/weather'
+import { NormalizedWeatherData, RawWeatherResponse } from '../types/weather'
 
 export class WeatherService {
   private normalizeWeatherData(raw: RawWeatherResponse): NormalizedWeatherData {

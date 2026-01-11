@@ -1,5 +1,5 @@
-import { weatherService } from '@/service/weatherService'
-import { WeatherQueryParams } from '@/types/weather'
+import { weatherService } from '../service/weatherService'
+import { WeatherQueryParams } from '../types/weather'
 import type { FastifyRequest, FastifyReply } from 'fastify'
 
 export class WeatherController {

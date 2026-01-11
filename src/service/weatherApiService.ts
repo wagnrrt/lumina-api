@@ -1,5 +1,5 @@
-import { config } from '@/config/enviroments'
-import { RawWeatherResponse } from '@/types/weather'
+import { config } from '../config/enviroments'
+import { RawWeatherResponse } from '../types/weather'
 
 export class WeatherApiService {
   private baseUrl: string

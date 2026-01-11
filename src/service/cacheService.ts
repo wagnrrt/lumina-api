@@ -1,4 +1,4 @@
-import { config } from '@/config/enviroments'
+import { config } from '../config/enviroments'
 import { redisClient } from '../config/redis'
 
 export class CacheService {
