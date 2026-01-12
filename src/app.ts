@@ -10,7 +10,6 @@ export async function buildApp() {
     logger: true,
   })
 
-
   // Registrar CORS
   await server.register(cors, {
     origin: config.cors.origin,
