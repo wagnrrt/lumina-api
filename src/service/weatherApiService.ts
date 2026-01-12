@@ -18,10 +18,11 @@ export class WeatherApiService {
     const url = `${this.baseUrl}/${encodeURIComponent(location)}`
 
     const params = new URLSearchParams({
-      key: this.apiKey,
+      key: config.weatherApi.key,
       unitGroup: config.weatherApi.unitGroup,
-      include: 'days,hours,current',
       lang: config.weatherApi.language,
+      include: config.weatherApi.include,
+      elements: config.weatherApi.elements,
     })
 
     try {
